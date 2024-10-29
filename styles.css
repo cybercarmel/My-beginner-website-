@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #000; /* Background color set to black */
+    color: #fff; /* Text color set to white */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 0; /* Aligning the 'Contact Me' item to the far left */
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Text color set to white */
+    padding: 10px 0;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f14a60;
+}
+
+/* Profile Image */
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* Rounded image */
+}
+
+/* Highlighted Sections */
+.highlight {
+    background-color: pink; /* Highlight background color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Personal About Section */
+#personal-about {
+    margin-top: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* My Work Section Links */
+.work-links a {
+    color: #fff; /* Set text and icon color to white */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.work-links a:hover {
+    color: #f14a60; /* Optional: Hover color */
+}
+
+.work-links a i {
+    margin-right: 8px; /* Space between icon and text */
+}
